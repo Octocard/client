@@ -1,5 +1,5 @@
 /**
- * 
+ *
  * AngularJS Boilerplate
  * @description           Description
  * @author                Jozef Butko // www.jozefbutko.com/resume
@@ -7,7 +7,7 @@
  * @version               1.1.7
  * @date                  March 2015
  * @license               MIT
- * 
+ *
  */
 ;(function() {
 
@@ -17,7 +17,7 @@
    */
   angular
     .module('boilerplate', [
-      'ngRoute'
+      'ngRoute', 'highcharts-ng'
     ])
     .config(config);
 

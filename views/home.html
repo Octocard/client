@@ -1,9 +1,12 @@
-<h1 class="md-display-3">Octo-Card</h1>
+<h1 class="md-display-3">OctoCard</h1>
+
+<p class="md-headline">Use Octocard to note the influencers of various open source projects.</p>
+
+<p class="md-title enter">Please enter your github username;</p>
+<form>
+    <input id='username' type="text" required placeholder="username"><button>Find</button>
+</form>
 
 
-<i class="fa fa-github-square fa-lg"></i><span class="md-title enter">Please enter your Github username</span>
-<md-input-container>
-    <input type="text" ng-model="color" required md-maxlength="10">
-</md-input-container>
-<div class="container cf">
-</div>
+<div id="contributorsChart" data-highchart data-options="chartData1" width="500" height="400"></div>
+
