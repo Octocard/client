@@ -1,0 +1,60 @@
+
+/*********************
+GENERAL STYLES
+*********************/
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	background-color: $gray;
+	color: $text-color;
+	font-family: $font;
+	font-size: 100%;
+	padding-top: 10px;
+}
+
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+/******************************************************************
+H1, H2, H3, H4, H5 STYLES
+******************************************************************/
+
+h1 {
+	margin-top: 0;
+}
+
+
+
+/*********************
+MAIN PAGE
+*********************/
+.enter{
+	margin-left: 0.5em;
+}
+#content {
+	margin-top: 0;
+}
+
+/*********************
+FOOTER STYLES
+*********************/
+
+.footer {
+	clear: both;
+	background-color: $black;
+	color: $light-gray;
+}
